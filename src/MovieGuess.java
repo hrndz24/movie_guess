@@ -51,6 +51,10 @@ public class MovieGuess {
                     break;
                 }
             }
+            if(!(movieguess.equals(movie))){
+                System.out.println(movie);
+                System.out.println("GAME OVER");
+            }
         }
         catch(Exception e){
             System.out.println("smth went wrong");
